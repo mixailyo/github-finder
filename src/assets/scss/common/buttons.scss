@@ -1,0 +1,29 @@
+input, button:active { outline: none }
+button:focus { outline:none }
+
+.btn {
+  display: inline-block;
+  padding: 0.6em 1.6em;
+  line-height: 1;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 30px;
+  margin: 15px 0;
+
+  // default btn 
+  &.btnDefault {
+    color: #ffffff;
+    border: 1px solid #333333;
+    background-color: #333333;
+  }
+
+  // primary btn 
+  &.btnPrimary {
+    color: #ffffff;
+    border: 1px solid #494ce8;
+    background-color: #494ce8;
+    &:hover {
+      background-color: #6c6eec;
+    }
+  }
+}
